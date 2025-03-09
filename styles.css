@@ -1,0 +1,97 @@
+
+
+/* General Styling */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Game Container */
+.game-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Game Title */
+.game-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f8d210;
+}
+
+/* Instructions */
+.game-instructions {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+/* Score & Timer */
+.score-timer {
+    font-size: 18px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Game Board */
+.game-board {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #0f3460;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Target */
+#target {
+    width: 50px;
+    height: 50px;
+    background: #f8d210;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Start Button */
+#startGame {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #ff5733;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startGame:hover {
+    background: #c70039;
+}
+
+/* Leaderboard */
+.leaderboard {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.leaderboard h2 {
+    font-size: 22px;
+    color: #f8d210;
+}
+
+.list-group-item {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
